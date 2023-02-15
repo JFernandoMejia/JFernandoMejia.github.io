@@ -4,21 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pr&aacute;ctica</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-    <h1>Prueba HTML</h1>
-
-        <div class="q-pa-md">
-          <q-table
-            class="my-sticky-header-table"
-            title="Treats"
-            :rows="rows"
-            :columns="columns"
-            row-key="name"
-            flat
-            bordered
-          />
-        </div>
+    <h1>Ejemplo HTML, CSS</h1>
+    <table class="table-default">
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="Col">Q1</th>
+                <th scope="Col">Q2</th>
+                <th scope="Col">Q3</th>
+                <th scope="Col">Q4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>#207-B34</th>
+                <td>Q.11,940.00</td>
+                <td>Q.12,348.00</td>
+                <td>Q.14,301.00</td>
+                <td>Q.17,208.00</td>
+            </tr>
+            <tr>
+                <th>#207-B35</th>
+                <td>Q.9,345.00</td>
+                <td>Q.9,834.00</td>
+                <td>Q.10,035.00</td>
+                <td>Q.9,672.00</td>
+              </tr>
+              <tr>
+                <th>#207-B36</th>
+                <td>Q.2,787.00</td>
+                <td>Q.3,123.00</td>
+                <td>Q.4,137.00</td>
+                <td>Q.3,711.00</td>
+              </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+              <th>Total</th>
+              <td>Q.24,072.00</td>
+              <td>Q.25,305.00</td>
+              <td>Q.28,473.00</td>
+              <td>Q.30,591.00</td>
+            </tr>
+            </tfoot>
+    </table>
 
 </body>
 </html>
